@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5ECDC;
+    font-family: "Flame Bold";
+    color: rgb(80, 35, 20);
+}
+
+i{
+    background:crimson;
+    color: #fff;
+}
+
+.col-3 p{
+    background-color: #F5ECDC;
+}
+
+#Section1{
+    height:300px;
+    font-size: 42px;
+}
+
+#danger-button2{
+    font-size: 14px;
+    margin-left: 35px;
+}
+
+#danger-button2 i{
+    color:crimson;
+    background: #F5ECDC;;
+}
+
+#Secbtn{
+    width: 200px;
+}
+
+.card img{
+    height: 250px;
+}
+
+.card-body{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.card-body h5,p{
+    background-color: #fff;
+}
+
+.card-body a{
+    color: rgb(80, 35, 20);
+    background: #fff;
+    font-size: 12px;
+}
+
+#footer-icon{
+    width: 25px;
+}
+
+#heading-order{
+    font-family: "Flame Bold";
+    color: rgb(80, 35, 20);
+    font-size: 42px;
+    height:50px;
+}
+
+#danger-button{
+    font-size: 14px;
+    margin-left: 35px;
+}
+
+footer{
+    padding: 60px;
+}
+
+#footer-left p{
+    text-align:justify;
+}
+
+#footer-right{
+    color: rgb(80, 35, 20);
+}
+
+#footer-right img{
+    background: #000;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#footer-right p{
+    background-color: #F5ECDC;
+    text-align: justify;
+}
+
+.container-fluid #sub-footer{
+    background: #502314;
+}
+
+#sub-footer{
+    background-color: #502314;
+}
+
+#sub-footer p, u{
+    color: rgb(245, 235, 220);
+    font-size: 12px;
+    background-color: #502314;
+    border:40px ;
+    border-color: #502314;
+}
+
+/*-----Small screen-------*/
+
+@media(max-width:500px){
+    #footer-right img{
+        top: 101px;
+        display: block;
+    }
+    #view{
+        display: none;
+    }
+    #sign{
+        font-size: 0.5rem;
+    }
+}
+@media(max-width:1000px){
+    #view{
+        display: none;
+    }
+}
